@@ -1,0 +1,201 @@
+01 Headline KPIs
+"Article states $2,261,536.97; the dataset sums to $2,261,536.78 (source values carry up to 4 decimals)."
+Total revenue,Orders,Customers,Avg order value,Avg ship days
+2261536.7827,4922,793,459.4752,3.9611
+
+02 Year-over-year growth
+Year,Revenue,YoY growth
+2015,479856.2081
+2016,459436.0054,-0.0426
+2017,600192.55,0.3064
+2018,722052.0192,0.203
+
+02 Monthly revenue + 3-month moving average
+"All 48 months. The moving average falls in 21 of them, so the article line ""never turns down"" does not hold."
+Year-Month,Revenue,Moving avg (3m)
+2015-01,14205.707,14205.707
+2015-02,4519.892,9362.7995
+2015-03,55205.797,24643.7987
+2015-04,27906.855,29210.848
+2015-05,23644.303,35585.6517
+2015-06,34322.9356,28624.6979
+2015-07,33781.543,30582.9272
+2015-08,27117.5365,31740.6717
+2015-09,81623.5268,47507.5354
+2015-10,31453.393,46731.4854
+2015-11,77907.6607,63661.5268
+2015-12,68167.0585,59176.0374
+2016-01,18066.9576,54713.8923
+2016-02,11951.411,32728.4757
+2016-03,32339.3184,20785.8957
+2016-04,34154.4685,26148.3993
+2016-05,29959.5305,32151.1058
+2016-06,23599.374,29237.791
+2016-07,28608.259,27389.0545
+2016-08,36818.3422,29675.3251
+2016-09,63133.606,42853.4024
+2016-10,31011.7375,43654.5619
+2016-11,75249.3995,56464.9143
+2016-12,74543.6012,60268.2461
+2017-01,18542.491,56111.8306
+2017-02,22978.815,38688.3024
+2017-03,51165.059,30895.455
+2017-04,38679.767,37607.8803
+2017-05,56656.908,48833.9113
+2017-06,39724.486,45020.387
+2017-07,38320.783,44900.7257
+2017-08,30542.2003,36195.8231
+2017-09,69193.3909,46018.7914
+2017-10,59583.033,53106.2081
+2017-11,79066.4958,69280.9732
+2017-12,95739.121,78129.5499
+2018-01,43476.474,72760.6969
+2018-02,19920.9974,53045.5308
+2018-03,58863.4128,40753.6281
+2018-04,35541.9101,38108.7734
+2018-05,43825.9822,46077.1017
+2018-06,48190.7277,42519.54
+2018-07,44825.104,45613.938
+2018-08,62837.848,51951.2266
+2018-09,86152.888,64605.28
+2018-10,77448.1312,75479.6224
+2018-11,117938.155,93846.3914
+2018-12,83030.3888,92805.5583
+
+03 Revenue by category
+Category,Revenue,Share
+Technology,827455.873,0.3659
+Furniture,728658.5757,0.3222
+Office Supplies,705422.334,0.3119
+
+03 Revenue by region
+Region,Revenue,Share
+West,710219.6845,0.314
+East,669518.726,0.296
+Central,492646.9132,0.2178
+South,389151.459,0.1721
+
+04 Sub-categories with cumulative revenue share
+"All 17 sub-categories, listed in revenue order."
+Rank,Sub-category,Revenue,Cumulative share
+1,Phones,327782.448,0.1449
+2,Chairs,322822.731,0.2877
+3,Storage,219343.392,0.3847
+4,Tables,202810.628,0.4743
+5,Binders,200028.785,0.5628
+6,Machines,189238.631,0.6465
+7,Accessories,164186.7,0.7191
+8,Copiers,146248.094,0.7837
+9,Bookcases,113813.1987,0.8341
+10,Appliances,104618.403,0.8803
+11,Furnishings,89212.018,0.9198
+12,Paper,76828.304,0.9537
+13,Supplies,46420.308,0.9743
+14,Art,26705.41,0.9861
+15,Envelopes,16128.046,0.9932
+16,Labels,12347.726,0.9987
+17,Fasteners,3001.96,1
+
+05 Q4 share of annual revenue
+Q4 share
+0.3852
+
+05 Revenue by day of week
+Weekday,Revenue
+Sunday,377868.7779
+Monday,348791.5516
+Tuesday,420535.9243
+Wednesday,315888.9722
+Thursday,142839.2402
+Friday,234710.8402
+Saturday,420901.4763
+
+06 Repeat-buyer rate
+Repeat buyers,Total customers,Repeat rate
+780,793,0.9836
+
+06 RFM segmentation (NTILE quintiles)
+"Quintile ties are broken by Customer ID, so counts differ slightly from the article (tie order in PostgreSQL is arbitrary)."
+Segment,Customers,Avg recency (days),Revenue
+Champions,168,25.6012,660233.3709
+Loyal,164,59.7073,565409.5112
+At Risk,143,225.0629,496389.3747
+Lost,175,375.6629,273497.2787
+Recent / New,89,26.5955,158481.7078
+Needs Attention,54,74.0556,107525.5394
+
+06 Average days between orders
+"Total span between each customer's first and last order date, divided by the number of gaps."
+Avg days between orders
+191.545
+
+07 Revenue by state
+"All 49 states, listed in revenue order."
+Rank,State,Revenue,Share
+1,California,446306.4635,0.1973
+2,New York,306361.147,0.1355
+3,Texas,168572.5322,0.0745
+4,Washington,135206.85,0.0598
+5,Pennsylvania,116276.65,0.0514
+6,Florida,88436.532,0.0391
+7,Illinois,79236.517,0.035
+8,Michigan,76136.074,0.0337
+9,Ohio,75130.35,0.0332
+10,Virginia,70636.72,0.0312
+11,North Carolina,55165.964,0.0244
+12,Indiana,48718.4,0.0215
+13,Georgia,48219.11,0.0213
+14,Kentucky,36458.39,0.0161
+15,Arizona,35272.657,0.0156
+16,New Jersey,34610.972,0.0153
+17,Colorado,31841.598,0.0141
+18,Wisconsin,31173.43,0.0138
+19,Tennessee,30661.873,0.0136
+20,Minnesota,29863.15,0.0132
+21,Massachusetts,28634.434,0.0127
+22,Delaware,27322.999,0.0121
+23,Maryland,23705.523,0.0105
+24,Rhode Island,22525.026,0.01
+25,Missouri,22205.15,0.0098
+26,Oklahoma,19683.39,0.0087
+27,Alabama,19510.64,0.0086
+28,Oregon,17284.462,0.0076
+29,Nevada,16729.102,0.0074
+30,Connecticut,13384.357,0.0059
+31,Arkansas,11678.13,0.0052
+32,Utah,11220.056,0.005
+33,Mississippi,10771.34,0.0048
+34,Louisiana,9131.05,0.004
+35,Vermont,8929.37,0.0039
+36,South Carolina,8481.71,0.0038
+37,Nebraska,7464.93,0.0033
+38,New Hampshire,7292.524,0.0032
+39,Montana,5589.352,0.0025
+40,New Mexico,4783.522,0.0021
+41,Iowa,4443.56,0.002
+42,Idaho,4382.486,0.0019
+43,Kansas,2914.31,0.0013
+44,District of Columbia,2865.02,0.0013
+45,Wyoming,1603.136,0.0007
+46,South Dakota,1315.56,0.0006
+47,Maine,1270.53,0.0006
+48,West Virginia,1209.824,0.0005
+49,North Dakota,919.91,0.0004
+
+07 Segment x category revenue matrix
+Segment,Furniture,Office Supplies,Technology
+Consumer,387696.258,359352.608,401011.665
+Corporate,220321.7018,224130.536,244041.837
+Home Office,120640.6159,121939.19,182402.371
+
+08 Order-value distribution (order grain)
+Median order,Mean order,P99 order
+151.875,459.4752,4206.3568
+
+08 Same measure (line-item grain)
+Median line,Mean line
+54.49,230.7691
+
+08 Copier transaction profile
+Copier lines,Avg sale,Total
+66,2215.8802,146248.094
