@@ -43,7 +43,7 @@ FROM superstore;                                                     -- the tabl
 
 | total_revenue | orders | customers | avg_order_value | avg_ship_days |
 | --- | --- | --- | --- | --- |
-| 2,261,536.97 | 4,922 | 793 | 459.48 | 4.0 |
+| 2,261,536.78 | 4,922 | 793 | 459.48 | 4.0 |
 
 Average order value sits at $459 and items ship in about four days. Headline numbers only set the stage; the story is in how revenue moves across time, geography, product, and customer.
 
@@ -111,7 +111,7 @@ FROM monthly ORDER BY mstart;
 | 2018-11 | 117,938.14 | 93,846.40 |
 | 2018-12 | 83,030.38 | 92,805.56 |
 
-November 2018 is the single biggest month in the dataset at $117.9K, more than double a typical spring month. The moving average never turns down across the four years, which is the real evidence the growth is structural.
+November 2018 is the single biggest month in the dataset at $117.9K, more than double a typical spring month. The moving average ends the period far above where it started, and its last reading is nearly double the first, which is the real evidence the growth is structural.
 
 ## 03: A balanced book with a concentration risk
 
@@ -480,4 +480,5 @@ Analysis without action is trivia. Every recommendation below traces to a result
 
 ## Reproducibility
 
-Every table in this document was produced by running the queries shown against the cleaned dataset (9,800 rows) in PostgreSQL 16. Totals reconcile to $2,261,536.97. The measure throughout is sales revenue; the dataset carries no profit, quantity, or discount columns, so margin and unit analysis are out of scope by construction.
+Every table in this document was produced by running the queries shown against the cleaned dataset (9,800 rows) in PostgreSQL 16. Totals reconcile to $2,261,536.78. The measure throughout is sales revenue; the dataset carries no profit, quantity, or discount columns, so margin and unit analysis are out of scope by construction.
+
